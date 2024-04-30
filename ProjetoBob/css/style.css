@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    background-image: url(../img/James_and_Bob.jpg);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.box {
+    border-radius: 10px;
+    padding: 50px 0;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255,0.6);
+    background-position: center;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+
+
+input[type="password"],
+input[type="email"] {
+    width: 280px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    background-color: rgb(33, 111, 201);
+    color: white;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+.imagens img {
+    border-radius: 0;
+    padding: 5px 19px ;
+    height: 30px;
+    width: 40px;
+    gap: 10px;
+    background-color: rgb(252, 252, 252);
+    
+}
+h1 {
+    top: -55px;
+    margin-top: -5px;
+    margin-left: -20px;
+    font-size: 35px;
+    font-family: Inter;
+
+}
+.box label{
+    margin-top: -5px;
+    margin-left: -170px;
+    font-size: 15px;
+    font-family: Inter;
+
+}
+
+
